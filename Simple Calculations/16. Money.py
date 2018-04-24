@@ -12,3 +12,5 @@ btcs_result = btcs * BTC
 uahs_result = uahs * UAH
 
 print('%.2f' % (((btcs_result + uahs_result) - (btcs_result + uahs_result) * commission / 100) / EUR))
+
+# Задачата е грешна спрямо проверките тук: https://judge.softuni.bg/Contests/Practice/Index/233#0
