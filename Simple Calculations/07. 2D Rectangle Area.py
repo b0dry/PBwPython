@@ -1,3 +1,5 @@
+#https://judge.softuni.bg/Contests/Practice/Index/151#6
+
 x1 = float(input())
 y1 = float(input())
 x2 = float(input())

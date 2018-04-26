@@ -1,3 +1,5 @@
+# https://judge.softuni.bg/Contests/Practice/Index/151#11
+
 amount = float(input())
 fr = input()
 to = input()
@@ -6,7 +8,6 @@ EUR = 1.95583
 GBP = 2.53405
 BGN = 1
 
-GBP = {'GBP', 2.53405}
 
 if fr == 'USD':
     if to == 'EUR':

@@ -1,3 +1,5 @@
+# https://judge.softuni.bg/Contests/Practice/Index/274#0
+
 workdays = float(input())
 daytips = float(input())
 exchange_rate = float(input())
