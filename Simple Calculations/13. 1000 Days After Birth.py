@@ -1,8 +1,9 @@
-from datetime import datetime, timedelta
+from datetime import date, timedelta
 
-tmp = input()
-result = datetime.strptime(tmp, '%d-%m-%Y')
-result = result + timedelta(days=999)
+day, month, year = input().split('-')
+input_date = date(int(year), int(month), int(day))
+date_format = '%d-%m-%Y'
 
+result = input_date + timedelta(days=999)
 
-print(f'{result.day}-{result.month}-{result.year}')
+print(result.strftime(date_format))
