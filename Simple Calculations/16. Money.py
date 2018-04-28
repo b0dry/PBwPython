@@ -1,3 +1,5 @@
+# Условието на задачата е грешно спрямо проверките тук: https://judge.softuni.bg/Contests/Practice/Index/233#0
+
 btcs = float(input())
 uahs = float(input())
 commission = float(input())
@@ -13,4 +15,3 @@ uahs_result = uahs * UAH
 
 print('%.2f' % (((btcs_result + uahs_result) - (btcs_result + uahs_result) * commission / 100) / EUR))
 
-# Задачата е грешна спрямо проверките тук: https://judge.softuni.bg/Contests/Practice/Index/233#0

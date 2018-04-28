@@ -1,3 +1,4 @@
+# https://judge.softuni.bg/Contests/Practice/Index/181#0
 
 floor_lenght = float(input())
 tile_wight = float(input())

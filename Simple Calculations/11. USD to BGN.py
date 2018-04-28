@@ -1,3 +1,4 @@
+# https://judge.softuni.bg/Contests/Practice/Index/151#10
 
 dollars = float(input())
 
