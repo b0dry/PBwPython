@@ -33,8 +33,6 @@ if result_type == 'm':
         result = input_amount / m * ft
     elif input_type == 'yd':
         result = input_amount / m * yd
-    else:
-        result = 0
 
 if result_type == 'mm':
     if input_type == 'm':
@@ -53,8 +51,6 @@ if result_type == 'mm':
         result = input_amount / mm * ft
     elif input_type == 'yd':
         result = input_amount / mm * yd
-    else:
-        result = 0
 
 if result_type == 'cm':
     if input_type == 'm':
@@ -73,8 +69,6 @@ if result_type == 'cm':
         result = input_amount / cm * ft
     elif input_type == 'yd':
         result = input_amount / cm * yd
-    else:
-        result = 0
 
 if result_type == 'mi':
     if input_type == 'm':
@@ -93,8 +87,6 @@ if result_type == 'mi':
         result = input_amount / mi * ft
     elif input_type == 'yd':
         result = input_amount / mi * yd
-    else:
-        result = 0
 
 if result_type == 'in':
     if input_type == 'm':
@@ -113,8 +105,6 @@ if result_type == 'in':
         result = input_amount / inch * ft
     elif input_type == 'yd':
         result = input_amount / inch * yd
-    else:
-        result = 0
 
 if result_type == 'km':
     if input_type == 'm':
@@ -133,8 +123,6 @@ if result_type == 'km':
         result = input_amount / km * ft
     elif input_type == 'yd':
         result = input_amount / km * yd
-    else:
-        result = 0
 
 if result_type == 'ft':
     if input_type == 'm':
@@ -153,8 +141,6 @@ if result_type == 'ft':
         result = input_amount / ft * ft
     elif input_type == 'yd':
         result = input_amount / ft * yd
-    else:
-        result = 0
 
 if result_type == 'yd':
     if input_type == 'm':
@@ -173,11 +159,9 @@ if result_type == 'yd':
         result = input_amount / yd * ft
     elif input_type == 'yd':
         result = input_amount / yd * yd
-    else:
-        result = 0
 
 if result == 0:
-        print('not valid input')
+        print('Not a valid input')
 else:
     print(f'{result} {result_type}')
 
