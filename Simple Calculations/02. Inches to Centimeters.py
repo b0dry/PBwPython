@@ -1,2 +1,2 @@
-inches=float(input('Inches = '))
-print('Centimeters =', inches * 2.54)
+inches = float(input('Inches = '))
+print('Centimeters = ' + str(inches * 2.54))
