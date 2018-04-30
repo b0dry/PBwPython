@@ -10,4 +10,3 @@ seconds = (time_1 + time_2 + time_3) % 60
 print(str(minutes) + ':' + '%02d' % seconds)
 # Other solution
 # print(str(minutes) + ':' + str(seconds).zfill(2))
-
