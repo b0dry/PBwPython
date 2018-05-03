@@ -9,6 +9,9 @@ EUR = 1.95583
 GBP = 2.53405
 BGN = 1
 
+amount = amount * globals()[fr] / globals()[to]
+print(str(round(amount, 2)) + ' ' + to)
+
 # if fr == 'USD':
 #     if to == 'EUR':
 #         amount = amount * USD / EUR
@@ -49,5 +52,3 @@ BGN = 1
 #     elif to == 'USD':
 #         amount = amount * BGN / USD
 
-amount = amount * globals()[fr] / globals()[to]
-print(str(round(amount, 2)) + ' ' + to)

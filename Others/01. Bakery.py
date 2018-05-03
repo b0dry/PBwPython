@@ -1,7 +1,5 @@
 # https://judge.softuni.bg/Contests/Practice/Index/911#1
 
-import math
-
 total_dough_weight = int(input())
 dough_per_bread = int(input())
 dough_per_sweet = int(dough_per_bread * 0.80)
