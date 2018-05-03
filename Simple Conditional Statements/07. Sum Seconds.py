@@ -3,9 +3,10 @@
 time_1 = int(input())
 time_2 = int(input())
 time_3 = int(input())
+sum_time = time_1 + time_2 + time_3
 
-minutes = (time_1 + time_2 + time_3) // 60
-seconds = (time_1 + time_2 + time_3) % 60
+minutes = sum_time // 60
+seconds = sum_time % 60
 
 print(str(minutes) + ':' + '%02d' % seconds)
 # Other solution
