@@ -3,7 +3,7 @@
 a = input('')
 b = input('')
 
-if a.capitalize() == b.capitalize():
+if a.upper() == b.upper():
     print('yes')
 else:
     print('no')
