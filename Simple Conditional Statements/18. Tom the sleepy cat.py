@@ -1,3 +1,5 @@
+# https://judge.softuni.bg/Contests/Practice/Index/181
+
 vacation_time = int(input())
 
 total_amount_of_time = 365

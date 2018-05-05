@@ -1,6 +1,8 @@
-# Console input
+# https://judge.softuni.bg/Contests/Practice/Index/233
+
 import math
 
+# Console input
 area = int(input())
 grape_weight_per_meter = float(input())
 target_amount_of_wine = int(input())
