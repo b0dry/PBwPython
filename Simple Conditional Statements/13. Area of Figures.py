@@ -3,19 +3,16 @@ import math
 
 figure = input()
 result = 'Invalid Result!'
+a = float(input())
 
 if figure == 'square':
-    a = float(input())
     result = str('%.3f' % (a * a))
 elif figure == 'rectangle':
-    a = float(input())
     b = float(input())
     result = str('%.3f' % (a * b))
 elif figure == 'circle':
-    r = float(input())
-    result = str('%.3f' % (math.pi * r * r))
+    result = str('%.3f' % (math.pi * a * a))
 elif figure == 'triangle':
-    a = float(input())
     h = float(input())
     result = str('%.3f' % (a * h / 2))
 
