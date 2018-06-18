@@ -1,17 +1,24 @@
-import math
+sleeve = int(input())
+front = int(input())
+material = input()
+tie = input()
 
-n = int(input())
-left_sum = 0
-right_sum = 0
+size = (sleeve * 2 + front * 2) * 1.1 / 100
+price = 0
+sewing = 10
 
-for i in range(0, n):
-    left_sum += int(input())
+if material == "Linen":
+    price = size * 15 + sewing
+elif material == "Cotton":
+    price = size * 12 + sewing
+elif material == "Denim":
+    price = size * 20 + sewing
+elif material == "Twill":
+    price = size * 16 + sewing
+elif material == "Flannel":
+    price = size * 11 + sewing
 
-for i in range(0, n):
-    right_sum += int(input())
+if tie == "Yes":
+    price *= 1.2
 
-if left_sum == right_sum:
-    print("Yes, sum=%d" % left_sum)
-else:
-    diff = math.fabs(left_sum - right_sum)
-    print("No, diff=%d" % diff)
+print(f'The price of the shirt is: {price:.2f}lv.')
